@@ -10,15 +10,12 @@
 		E49912B718BFD4FB008DAF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49912B618BFD4FB008DAF74 /* Foundation.framework */; };
 		E49912B918BFD4FB008DAF74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49912B818BFD4FB008DAF74 /* CoreGraphics.framework */; };
 		E49912BB18BFD4FB008DAF74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49912BA18BFD4FB008DAF74 /* UIKit.framework */; };
-		E49912C118BFD4FB008DAF74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E49912BF18BFD4FB008DAF74 /* InfoPlist.strings */; };
-		E49912C318BFD4FB008DAF74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E49912C218BFD4FB008DAF74 /* main.m */; };
-		E49912C718BFD4FB008DAF74 /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E49912C618BFD4FB008DAF74 /* TBAppDelegate.m */; };
-		E49912C918BFD4FB008DAF74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49912C818BFD4FB008DAF74 /* Images.xcassets */; };
 		E49912D018BFD4FB008DAF74 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49912CF18BFD4FB008DAF74 /* XCTest.framework */; };
 		E49912D118BFD4FB008DAF74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49912B618BFD4FB008DAF74 /* Foundation.framework */; };
 		E49912D218BFD4FB008DAF74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49912BA18BFD4FB008DAF74 /* UIKit.framework */; };
 		E49912DA18BFD4FB008DAF74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E49912D818BFD4FB008DAF74 /* InfoPlist.strings */; };
 		E49912DC18BFD4FB008DAF74 /* TBQuadTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E49912DB18BFD4FB008DAF74 /* TBQuadTreeTests.m */; };
+		E49912EE18BFD6BF008DAF74 /* TBQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E49912ED18BFD6BF008DAF74 /* TBQuadTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +33,13 @@
 		E49912B618BFD4FB008DAF74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E49912B818BFD4FB008DAF74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E49912BA18BFD4FB008DAF74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E49912BE18BFD4FB008DAF74 /* TBQuadTree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBQuadTree-Info.plist"; sourceTree = "<group>"; };
-		E49912C018BFD4FB008DAF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E49912C218BFD4FB008DAF74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E49912C418BFD4FB008DAF74 /* TBQuadTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBQuadTree-Prefix.pch"; sourceTree = "<group>"; };
-		E49912C518BFD4FB008DAF74 /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
-		E49912C618BFD4FB008DAF74 /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
-		E49912C818BFD4FB008DAF74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E49912CE18BFD4FB008DAF74 /* TBQuadTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBQuadTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49912CF18BFD4FB008DAF74 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E49912D718BFD4FB008DAF74 /* TBQuadTreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBQuadTreeTests-Info.plist"; sourceTree = "<group>"; };
 		E49912D918BFD4FB008DAF74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E49912DB18BFD4FB008DAF74 /* TBQuadTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBQuadTreeTests.m; sourceTree = "<group>"; };
+		E49912EC18BFD6BF008DAF74 /* TBQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBQuadTree.h; sourceTree = "<group>"; };
+		E49912ED18BFD6BF008DAF74 /* TBQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBQuadTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,23 +99,10 @@
 		E49912BC18BFD4FB008DAF74 /* TBQuadTree */ = {
 			isa = PBXGroup;
 			children = (
-				E49912C518BFD4FB008DAF74 /* TBAppDelegate.h */,
-				E49912C618BFD4FB008DAF74 /* TBAppDelegate.m */,
-				E49912C818BFD4FB008DAF74 /* Images.xcassets */,
-				E49912BD18BFD4FB008DAF74 /* Supporting Files */,
+				E49912EC18BFD6BF008DAF74 /* TBQuadTree.h */,
+				E49912ED18BFD6BF008DAF74 /* TBQuadTree.m */,
 			);
 			path = TBQuadTree;
-			sourceTree = "<group>";
-		};
-		E49912BD18BFD4FB008DAF74 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E49912BE18BFD4FB008DAF74 /* TBQuadTree-Info.plist */,
-				E49912BF18BFD4FB008DAF74 /* InfoPlist.strings */,
-				E49912C218BFD4FB008DAF74 /* main.m */,
-				E49912C418BFD4FB008DAF74 /* TBQuadTree-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E49912D518BFD4FB008DAF74 /* TBQuadTreeTests */ = {
@@ -220,8 +199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E49912C118BFD4FB008DAF74 /* InfoPlist.strings in Resources */,
-				E49912C918BFD4FB008DAF74 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E49912C718BFD4FB008DAF74 /* TBAppDelegate.m in Sources */,
-				E49912C318BFD4FB008DAF74 /* main.m in Sources */,
+				E49912EE18BFD6BF008DAF74 /* TBQuadTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E49912BF18BFD4FB008DAF74 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E49912C018BFD4FB008DAF74 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		E49912D818BFD4FB008DAF74 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
