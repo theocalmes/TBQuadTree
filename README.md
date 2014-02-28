@@ -3,7 +3,7 @@ TBQuadTree
 
 Installing
 ----------
-    pod 'TBQuadTree', :git => 'git@github.com:theocalmes/TBQuadTree.git'
+    pod 'TBQuadTree', '~> 0.0'
 
 or you can just drag the source code into your project.
 
