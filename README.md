@@ -51,3 +51,9 @@ To query the quad tree use `TBQuadTreeGatherDataInRange`
           NSLog(@"Coordinate: (%F, %F)", data.x, data.y);
         }
     }
+    
+Example project
+---------------
+If you want to learn more about how this data structure works check out my [blog post](http://robots.thoughtbot.com/how-to-handle-large-amounts-of-data-on-maps)
+
+you can also see it in action in [TBAnnotationClustering](https://github.com/thoughtbot/TBAnnotationClustering)
