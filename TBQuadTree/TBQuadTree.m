@@ -138,9 +138,6 @@ void TBFreeQuadTreeNode(TBQuadTreeNode* node)
     if (node->southWest != NULL) TBFreeQuadTreeNode(node->southWest);
     if (node->southEast != NULL) TBFreeQuadTreeNode(node->southEast);
 
-    for (int i=0; i < node->count; i++) {
-        free(node->points[i].data);
-    }
     free(node->points);
     free(node);
 }

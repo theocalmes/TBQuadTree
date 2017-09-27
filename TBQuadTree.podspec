@@ -11,16 +11,4 @@ Pod::Spec.new do |s|
   	}
   	s.source_files = 'TBQuadTree/**/*.{m,h}'
 	s.requires_arc = true
-	s.documentation = { 
-		:appledoc => [
-			'--project-name',      s.name + ' ' + s.version.to_s(),
-			'--project-company',   'thoughtbot',
-			'--docset-copyright',  'thoughtbot',
-	    	'--ignore',            'TBQuadTreeTests',
-	    	'--no-keep-undocumented-objects',
-	    	'--no-keep-undocumented-members',
-	    	'--no-repeat-first-par',
-	    	'--no-warn-invalid-crossref'
-	    ]
-	}
 end
